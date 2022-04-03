@@ -1,3 +1,4 @@
+// Package fastafile is used for reading fasta files
 package fastafile
 
 import (
@@ -25,6 +26,8 @@ type Reader struct {
 	DoneReading bool
 }
 
+// The NewReader function ...
+//  code examples...
 func NewReader(filename string) *Reader {
 	file, err := os.Open(filename)
 	if err != nil {

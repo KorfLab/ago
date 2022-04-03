@@ -1,3 +1,5 @@
+// Package entropy provides functions for calculating entropy from
+// probabilities and sequences.
 package entropy
 
 import "math"
