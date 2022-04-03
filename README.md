@@ -14,3 +14,11 @@ Experiments in the Go programming language.
 + Smith-Waterman
 + Viterbi
 
+## Installation ##
+
+### Lubuntu ###
+
+	sudo snap install go --classic
+
+
+
