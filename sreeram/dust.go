@@ -81,9 +81,9 @@ func main() {
 	// no errors
 
 	// make some variables to store current running seqence, total sequence and the number of seqences there are (for iterating purposes)
-	cur_seq := ""           // seq
-	total_seq := []string{} // seqs
-	num_seq := []string{}   // ids
+	cur_seq := ""
+	total_seq := []string{}
+	num_seq := []string{}
 
 	// create a reader for reading the fasta file in chunks
 	fasta_scan := bufio.NewScanner(fasta)
